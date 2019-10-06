@@ -1,0 +1,48 @@
+{
+  "data": [
+      {
+        "type": "inbox",
+        "avatarUrl": "http://3.bp.blogspot.com/-VtlxsCCqD-A/Ublp3FVJB-I/AAAAAAAAD5w/cnbSfpeiQL4/s1600/Avatar_Smiley.png",
+        "authorName": "Animal smile",
+        "body": "National Geographic онлайн",
+        "timestamp": 1570261844
+      },
+    {
+      "type": "inbox",
+      "avatarUrl": "http://1.bp.blogspot.com/-XZ4OhC9YXV8/UblpHf490HI/AAAAAAAAD2w/NbTPZKHRvQ8/s1600/Astronaut_Smiley.png",
+      "authorName": "Customer",
+      "body": "Purchase more 588$ after subscribe",
+      "timestamp": 1570355737
+    },
+
+    {
+      "type": "inbox",
+      "avatarUrl": "https://pbs.twimg.com/profile_images/834493671785525249/XdLjsJX_.jpg",
+      "authorName": "People 2",
+      "body": "I like to moving moving ...",
+      "timestamp": 1570196242
+    },
+    {
+      "type": "outbox",
+      "avatarUrl": "http://1.bp.blogspot.com/-slhbdFP3pkg/UblpS_iw2DI/AAAAAAAAD5I/kbMTqikQLNU/s1600/basketball_smiley.jpg",
+      "authorName": "Bill",
+      "body": "President company of Microsoft",
+      "timestamp": 1568101844
+    },
+    {
+      "type": "outbox",
+      "avatarUrl": "http://3.bp.blogspot.com/-lKgWdWNLMnw/UblpIfaEptI/AAAAAAAAD3A/yiMaQbGOUws/s1600/Earth__Smiley.png",
+      "authorName": "Apple",
+      "body": "Do you have download more app ?",
+      "timestamp": 1565423444
+    },
+    {
+      "type": "outbox",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/78.jpg",
+      "authorName": "People 1",
+      "body": "How are you ?",
+      "timestamp": 1570355737
+    }
+  ],
+  "count": 4
+}

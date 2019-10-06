@@ -54,6 +54,7 @@ protocol EmailProtocol {
     var avatarUrl: String? { get }
     var authorName: String { get }
     var body: String? { get }
+    var urlString: String? { get }
     var timestamp: Double { get }
     var dateString: String { get }
     var period: EmailPeriod { get }
@@ -64,6 +65,7 @@ struct Email: EmailProtocol, Decodable {
     let avatarUrl: String?
     let authorName: String
     let body: String?
+    let urlString: String?
     let timestamp: Double
 }
 
@@ -83,6 +85,10 @@ extension Email {
     
     var period: EmailPeriod {
         return EmailPeriod.create(for: date)
+    }
+    
+    var url: URL {
+        return URL(string: urlString.default) ?? URL(fileURLWithPath: "")
     }
     
     

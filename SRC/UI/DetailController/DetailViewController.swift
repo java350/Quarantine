@@ -77,9 +77,10 @@ class DetailViewController: UIViewController, StoryboardInstantiable {
         self.activityIndicator?.startAnimating()
         viewModel.map { viewModel in
             webView?.evaluateJavaScript("document.body.remove()", completionHandler: nil)
-            let request = URLRequest.init(url: viewModel.rundomUrl(),
-                                          cachePolicy: .returnCacheDataElseLoad, timeoutInterval: 30)
-            self.webView?.load(request)
+            viewModel.email.map {
+                let request = URLRequest.init(url: $0.url, cachePolicy: .returnCacheDataElseLoad, timeoutInterval: 30)
+                self.webView?.load(request)
+            }
         }
 
         viewModel?.email.map {
